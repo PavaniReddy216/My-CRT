@@ -1,0 +1,20 @@
+{
+    "user1":{
+        "uname":"pavani",
+        "profession":"front end developer",
+         "id":6
+
+    },
+    "user2":{
+        "uname":"nandu",
+        "profession":"back end developer",
+         "id":2
+
+    },
+    "user3":{
+        "uname":"mythili",
+        "profession":"student",
+         "id":1
+
+    }
+}

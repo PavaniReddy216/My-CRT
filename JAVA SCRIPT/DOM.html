@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM Example</title>
+    <style>
+        /* Add some simple styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HTML content -->
+<h1 id="mainHeading">Hello, HTML DOM!</h1>
+<p id="demoText">It is the example of DOM</p>
+<button id="changeTextBtn" onclick="changeText()">Change Text</button>
+
+<script>
+    // JavaScript to manipulate the DOM
+    function changeText() {
+        // Access the element with id "demoText" and change its text content
+        var demoTextElement = document.getElementById("demoText");
+        demoTextElement.textContent = "Text changed after using html";
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

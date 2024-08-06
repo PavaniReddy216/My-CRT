@@ -1,0 +1,47 @@
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}    
+
+
+
+nav {
+    background-color: cornflowerblue;
+    width:30%;
+    height: 250px;
+    float: left;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+ nav ul li {
+    margin: 40px 20px;
+ }
+
+ 
+article{
+    background-color:deeppink;
+    height: 250px;
+    width:70%;
+    float: left;
+}
+
+section::after{
+    display: block;
+    content: "";
+    clear: both;
+
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 30px;
+    text-align: center;
+}

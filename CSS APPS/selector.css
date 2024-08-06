@@ -1,0 +1,42 @@
+/* element selector*/
+h2{
+    color: aquamarine;
+}
+
+
+/* grouping selector*/
+h1,p {
+    color: blue;
+}
+
+
+/*id selector*/
+#first{
+    color: lawngreen;
+}
+
+
+/* class selector*/
+.second{
+    color: darkred;
+}
+
+
+
+/* universal selector*/
+*{
+    text-align: center;
+}
+
+
+div{
+    border: 10px solid seagreen;
+    color: limegreen;
+}
+
+
+/* descendant selector*/
+div p{
+    color: maroon;
+}
+

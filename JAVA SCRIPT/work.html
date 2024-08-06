@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LOGIN PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="work.js"></script>     <!-- add java script to html -->
+</head>
+<body><center>
+<div class="container mt-3">
+  <h2>PLEASE SIGNUP HERE !!!</h2>
+  <form action="success.html" name="loginform" >
+    <table border="3"><div class="mb-3 mt-3">
+      <tr><td><label for="USERNAME">ENTER USERNAME:</label></td>
+      <td><input type="text" class="form-control" name="USERNAME" placeholder="Enter USERNAME" ></td> </tr>
+      <tr><div class="mb-3">
+        <td><label for="pwd">ENTER PASSWORD: </label></td>
+      <td><input type="PASSWORD" class="form-control" name="pwd" placeholder="ENTER PASSWORD"> </td> <!--name="pswd"//-->
+    </div></tr>
+    <tr><div class="mb-3">
+      <td><label for="pwd1">CONFIRM PASSWORD: </label></td>
+    <td><input type="PASSWORD" class="form-control" name="pwd1" placeholder="CONFIRM PASSWORD"> </td> <!--name="pswd"//-->
+  </div></tr>
+  <tr><div class="mb-3">
+    <td><label for="GENDER">GENDER: </label></td>
+    <td><input type="radio"  name="GENDER" value="MALE">MALE
+    <input type="radio" name="GENDER" value="FEMALE">FEMALE</td>
+    </select></div></tr>
+    <tr><div class="mb-3">
+      <td><label for="MOBILENUMBER">MOBILE NUMBER: </label></td>
+      <td><input type="number" class="form-control" name="MOBILENUMBER" placeholder="ENTER MOBILE NUMBER"> </td> 
+    </div></tr>
+    <tr><div class="mb-3">
+        <td><label for="DOB">ENTER DOB: </label></td>
+        <td><input type="date" class="form-control" name="DOB" placeholder="ENTER DOB"></td> <!--name="pswd"//-->
+      </div></tr>
+    <tr><div class="mb-3">
+      <td><label for="add">ENTER ADDRESS: </label></td>
+      <td><textarea rows="10" cols="10" class="form-control" name="add" placeholder="ENTER ADDRESS"></textarea>
+       </td> <!--name="pswd"//-->
+      </div></tr>
+      <tr><div class="mb-3">
+        <td><label for="qualification" >QUALIFICATION:</label></td>
+       <td><select class="form-select" name="qualification">
+         <option value="select">select </option>
+         <option value="B.TECH">B.TECH</option>
+         <option value="MCA">MCA</option>
+         <option value="ANY DEGREE">ANY DEGREE</option></td>
+       </select></tr></div>
+       <tr><div class="mb-3">
+        <td><label for="skills" >CHOOSE YOUR SKILLS: </label></td>
+        <td><select class="form-select" name="skills">
+             <option value="select">select </option>
+             <option value="JAVA">JAVA</option>
+             <option value="HTML">HTML</option>
+             <option value="CSS3">CSS3</option>
+             <option value="JAVASCRIPT">JAVASCRIPT</option></td>
+           </select></tr></div>
+       <tr><div class="mb-3">
+            <td><label for="shift" >PREFERRED SHIFT: </label></td>
+            <td><input type="radio"  name="shift" value="DAY SHIFT">DAY SHIFT
+              <input type="radio"  name="shift" value="NIGHT SHIFT">NIGHT shift
+              <input type="radio"  name="shift" value="DAY/NIGHT SHIFT">DAY/NIGHT SHIFT</td>
+            </select></div></tr>
+       <tr><div class="mb-3">
+              <td><label for="resume" >UPLOAD YOUR RESUME: </label></td>
+              <td><input type="file" name="resume"></td></tr>
+      <center><tr><td></td><td><button type="submit" class="btn btn-primary" onclick="return validate()"> LOGIN </button>
+        <input type="reset">
+      </td></tr></center>
+    </div></center></form></table>
+  </body>
+</html>

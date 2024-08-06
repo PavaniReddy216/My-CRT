@@ -1,0 +1,38 @@
+body{
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    
+    background-repeat: no-repeat;
+    background-image:url("./1.jpg");
+    background-size: cover;
+
+}
+
+header {
+    float: right;
+    
+}
+
+
+header ul {
+    
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+   
+}
+
+nav {
+    float: left;
+   
+}
+
+footer{
+    text-align: center;
+    
+    color: #ffffff;
+    font-size: 27px;
+}

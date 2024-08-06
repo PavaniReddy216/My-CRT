@@ -1,0 +1,23 @@
+li{
+        float: left;
+        list-style-type: none; /* Remove dots */
+        margin-right: 100px; /*Adjust the value as needed */
+        
+}
+ul{
+        list-style-type: none;
+        margin: 10;
+        padding: 10px;
+        overflow: hidden;
+        background-color: cadetblue;
+}
+.navbar{
+        background-color: aqua;
+}
+
+
+.navbar ul{
+        display: flex;
+        
+
+}

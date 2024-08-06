@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    background-color:azure;
+}
+
+form{
+    border:5px solid brown;
+    background-color:rgb(181, 180, 180);
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    height:150px;
+    font-size: 20px;
+   
+   
+}
+form input{
+    border-radius: 10px;
+}
+
+h2{
+    color: b
+}
